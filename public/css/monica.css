@@ -1,0 +1,16 @@
+.kode_service2_text {
+    background-image: url(/images/service1.jpg);
+
+}
+
+.imagenm01 {
+    background-image: url(/images/foto-inicio-3.jpg);
+
+}
+
+.kode_services2_wrap [class*="col"]:nth-child(2) .kode_service2_text {
+    background-image: url(/images/foto-inicio-2.jpg);
+}
+
+.kode_service2_text {
+    background-image: url(/images/foto-inicio-4.jpg)

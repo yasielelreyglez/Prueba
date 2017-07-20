@@ -1,0 +1,126 @@
+<div class="container">
+  <ul>
+    <li><a class="active" href="/"><%= I18n.t 'Inicio' %></a></li>
+    <li><a href="#"><%= I18n.t 'Quienes Somos' %></a>
+      <ul>
+        <li><a href="<%= "/#{I18n.locale}/mision-vision" %>"><%= I18n.t 'Mision y Vision' %></a></li>
+        <li><a href="<%= "/#{I18n.locale}/directorio-gerencia" %>"><%= I18n.t 'Directorio y Gerencia' %></a></li>
+        <li><a href="<%= "/#{I18n.locale}/historia" %>"><%= I18n.t 'Hitoria' %></a></li>
+        <li><a href="<%= "/#{I18n.locale}/resultados" %>"><%= I18n.t 'Resultados' %></a></li>
+        <li><a href="<%= "/#{I18n.locale}/propiedades-mineras" %>"><%= I18n.t 'Propiedades Mineras' %></a></li>
+        <li><a href="<%= "/#{I18n.locale}/politica-ssomac" %>"><%= I18n.t 'Politica SSOMAC' %></a></li>
+      </ul>
+    </li>
+    <li><a href="#"><%= I18n.t 'Operaciones' %></a>
+      <ul>
+        <li><a href="<%= "/#{I18n.locale}/reservas-recursos" %>"><%= I18n.t 'Reservas y Recursos' %></a></li>
+        <li><a href="<%= "/#{I18n.locale}/unidades-mineras" %>"><%= I18n.t 'Unidades Mineras' %></a></li>
+        <li><a href="<%= "/#{I18n.locale}/energia" %>"><%= I18n.t 'Energia' %></a></li>
+      </ul>
+    </li>
+    <li><a href="#"><%= I18n.t 'Crecimiento' %></a>
+      <ul>
+        <li><a href="<%= "/#{I18n.locale}/estrategia-crecimiento" %>"><%= I18n.t 'Estrategia de Crecimiento' %></a></li>
+        <li><a href="<%= "/#{I18n.locale}/proyectos-exploracion" %>"><%= I18n.t 'Proyectos de Exploracion' %></a></li>
+        <li><a href="<%= "/#{I18n.locale}/proyectos-energia" %>"><%= I18n.t 'Proyectos de Energia' %></a></li>
+      </ul>
+    </li>
+    <li><a href="#"><%= I18n.t 'Asuntos Corporativos' %></a>
+      <ul>
+        <li><a href="<%= "/#{I18n.locale}/seguridad-salud" %>"><%= I18n.t 'Seguridad y Salud' %></a></li>
+        <li><a href="<%= "/#{I18n.locale}/gestion-humana" %>"><%= I18n.t 'Gestion Humana' %></a></li>
+        <li><a href="<%= "/#{I18n.locale}/responsabilidad-social" %>"><%= I18n.t 'Responsabilidad Social' %></a></li>
+        <li><a href="<%= "/#{I18n.locale}/medio-ambiente" %>"><%= I18n.t 'Medio Ambiente' %></a></li>
+        <li><a href="<%= "/#{I18n.locale}/obras-impuestos" %>"><%= I18n.t 'Obras por Impuestos' %></a></li>
+      </ul>
+    </li>
+    <li><a href="#"><%= I18n.t 'Relaciones con Inversionistas' %></a>
+      <ul>
+        <li><a href="<%= "/#{I18n.locale}/memoria-anual" %>"><%= I18n.t 'Memoria Anual' %></a></li>
+        <li><a href="<%= "/#{I18n.locale}/reporte-sostenibilidad" %>"><%= I18n.t 'Reporte de Sostenibilidad' %></a></li>
+        <li><a href="<%= "/#{I18n.locale}/estados-financieros" %>"><%= I18n.t 'Estados Financieros' %></a></li>
+        <li><a href="<%= "/#{I18n.locale}/analisis-gerencia" %>"><%= I18n.t 'Analisis de Gerencia' %></a></li>
+        <li>
+          <a href="<%= "/#{I18n.locale}/presentaciones-corporativas" %>"><%= I18n.t 'Presentacione Corporativas' %></a>
+        </li>
+        <li><a href="<%= "/#{I18n.locale}/notas-prensa" %>"><%= I18n.t 'Notas de Prensa' %></a></li>
+        <li><a href="<%= "/#{I18n.locale}/proteccion-accionista" %>"><%= I18n.t 'Proteccion al Accionista' %></a></li>
+        <li><a href="<%= "/#{I18n.locale}/derecho-accionistas" %>"><%= I18n.t 'Derecho de los Accionistas' %></a></li>
+        <li><a href="<%= "/#{I18n.locale}/links-interes" %>"><%= I18n.t 'Links de Interés' %></a></li>
+        <li><a href="<%= "/#{I18n.locale}/contactar-inversionistas" %>"><%= I18n.t 'Contactar a Relaciones' %></a></li>
+      </ul>
+    </li>
+    <li><a href="#"><%= I18n.t 'Trabaja con Nosotros' %></a>
+      <ul>
+        <li><a href="<%= "/#{I18n.locale}/uno-de-nosotros" %>"><%= I18n.t 'Se Uno de Nosotros' %></a></li>
+        <li><a href="<%= "/#{I18n.locale}/oportunidades-laborales" %>"><%= I18n.t 'Oportunidades Laborales' %></a></li>
+      </ul>
+    </li>
+  </ul>
+  <!--DL Menu Start-->
+  <div id="kode-responsive-navigation" class="dl-menuwrapper">
+    <button class="dl-trigger">Open Menu</button>
+    <ul class="dl-menu">
+      <li><a class="active" href="/"><%= I18n.t 'Inicio' %></a>
+      </li>
+      <li class="menu-item kode-parent-menu"><a href="#"><%= I18n.t 'Quienes Somos' %></a>
+        <ul class="dl-submenu">
+          <li><a href="<%= "/#{I18n.locale}/mision-vision" %>"><%= I18n.t 'Mision y Vision' %></a></li>
+          <li><a href="<%= "/#{I18n.locale}/directorio-gerencia" %>"><%= I18n.t 'Directorio y Gerencia' %></a></li>
+          <li><a href="<%= "/#{I18n.locale}/historia" %>"><%= I18n.t 'Hitoria' %></a></li>
+          <li><a href="<%= "/#{I18n.locale}/resultados" %>"><%= I18n.t 'Resultados' %></a></li>
+          <li><a href="<%= "/#{I18n.locale}/propiedades-mineras" %>"><%= I18n.t 'Propiedades Mineras' %></a></li>
+          <li><a href="<%= "/#{I18n.locale}/politica-ssomac" %>"><%= I18n.t 'Politica SSOMAC' %></a></li>
+        </ul>
+      </li>
+      <li class="menu-item kode-parent-menu"><a href="#"><%= I18n.t 'Operaciones' %></a>
+        <ul class="dl-submenu">
+          <li><a href="<%= "/#{I18n.locale}/reservas-recursos" %>"><%= I18n.t 'Reservas y Recursos' %></a></li>
+          <li><a href="<%= "/#{I18n.locale}/unidades-mineras" %>"><%= I18n.t 'Unidades Mineras' %></a></li>
+          <li><a href="<%= "/#{I18n.locale}/energia" %>"><%= I18n.t 'Energia' %></a></li>
+        </ul>
+      </li>
+      <li class="menu-item kode-parent-menu"><a href="#"><%= I18n.t 'Crecimiento' %></a>
+        <ul class="dl-submenu">
+          <li><a href="<%= "/#{I18n.locale}/estrategia-crecimiento" %>"><%= I18n.t 'Estrategia de Crecimiento' %></a>
+          </li>
+          <li><a href="<%= "/#{I18n.locale}/proyectos-exploracion" %>"><%= I18n.t 'Proyectos de Exploracion' %></a></li>
+          <li><a href="<%= "/#{I18n.locale}/proyectos-energia" %>"><%= I18n.t 'Proyectos de Energia' %></a></li>
+        </ul>
+      </li>
+      <li class="menu-item kode-parent-menu"><a href="#"><%= I18n.t 'Asuntos Corporativos' %></a>
+        <ul class="dl-submenu">
+          <li><a href="<%= "/#{I18n.locale}/seguridad-salud" %>"><%= I18n.t 'Seguridad y Salud' %></a></li>
+          <li><a href="<%= "/#{I18n.locale}/gestion-humana" %>"><%= I18n.t 'Gestion Humana' %></a></li>
+          <li><a href="<%= "/#{I18n.locale}/responsabilidad-social" %>"><%= I18n.t 'Responsabilidad Social' %></a></li>
+          <li><a href="<%= "/#{I18n.locale}/medio-ambiente" %>"><%= I18n.t 'Medio Ambiente' %></a></li>
+          <li><a href="<%= "/#{I18n.locale}/obras-impuestos" %>"><%= I18n.t 'Obras por Impuestos' %></a></li>
+        </ul>
+      </li>
+      <li class="menu-item kode-parent-menu"><a href="#"><%= I18n.t 'Relaciones con Inversionistas' %></a>
+        <ul class="dl-submenu">
+          <li><a href="<%= "/#{I18n.locale}/memoria-anual" %>"><%= I18n.t 'Memoria Anual' %></a></li>
+          <li><a href="<%= "/#{I18n.locale}/reporte-sostenibilidad" %>"><%= I18n.t 'Reporte de Sostenibilidad' %></a></li>
+          <li><a href="<%= "/#{I18n.locale}/estados-financieros" %>"><%= I18n.t 'Estados Financieros' %></a></li>
+          <li><a href="<%= "/#{I18n.locale}/analisis-gerencia" %>"><%= I18n.t 'Analisis de Gerencia' %></a></li>
+          <li>
+            <a href="<%= "/#{I18n.locale}/presentaciones-corporativas" %>"><%= I18n.t 'Presentacione Corporativas' %></a>
+          </li>
+          <li><a href="<%= "/#{I18n.locale}/notas-prensa" %>"><%= I18n.t 'Notas de Prensa' %></a></li>
+          <li><a href="<%= "/#{I18n.locale}/proteccion-accionista" %>"><%= I18n.t 'Proteccion al Accionista' %></a></li>
+          <li><a href="<%= "/#{I18n.locale}/derecho-accionistas" %>"><%= I18n.t 'Derecho de los Accionistas' %></a></li>
+          <li><a href="<%= "/#{I18n.locale}/links-interes" %>"><%= I18n.t 'Links de Interés' %></a></li>
+          <li><a href="<%= "/#{I18n.locale}/contactar-inversionistas" %>"><%= I18n.t 'Contactar a Relaciones' %></a></li>
+        </ul>
+      </li>
+      <li class="menu-item kode-parent-menu"><a href="#"><%= I18n.t 'Trabaja con Nosotros' %></a>
+        <ul class="dl-submenu">
+          <li><a href="<%= "/#{I18n.locale}/uno-de-nosotros" %>"><%= I18n.t 'Se Uno de Nosotros' %></a></li>
+          <li><a href="<%= "/#{I18n.locale}/oportunidades-laborales" %>"><%= I18n.t 'Oportunidades Laborales' %></a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <!--DL Menu END-->
+</div>

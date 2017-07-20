@@ -1,0 +1,12 @@
+.content-wraper{
+    padding-bottom: 0px;
+    float: none;
+}
+
+.content-wraper img{
+    border: solid 1px black;
+}
+
+p a{
+    color: black;
+}
